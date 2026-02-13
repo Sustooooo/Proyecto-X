@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5896355524574155926
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Decal_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 5329e946ed3713d479a90c1494353981,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ParallaxMapping_20612d3b3ec44b02882866470251d50a_Heightmap_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 093c99302ab66ce4cbeed2f0ee65629a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMapping_36e5a3fa764f4979aed656323d9e4cfd_Heightmap_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 556811279a1579e4885f895d556a48d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxOcclusionMapping_6d9e2a77e0b64122a92ea63614d4b928_Heightmap_2_Texture2D:
+        m_Texture: {fileID: 2800000, guid: aebbaf4c64e4c914b8493a5556e32f91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxOcclusionMapping_935403c1dd8a428aae2d2a3425635769_Heightmap_2_Texture2D:
+        m_Texture: {fileID: 2800000, guid: aebbaf4c64e4c914b8493a5556e32f91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_550434cdab2a4f119f385c8c8191bae8_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 556811279a1579e4885f895d556a48d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_605fdc6851124a28ad624167524aea3b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f4b1cbebc4d502b42bdfa4cc165114e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8da1e1666f6f472ea1a36384453f05a0_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b7b496609dfcf7d4089ca1e508b14f22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_97240d5dc17c4b719bd0745ab97fbac3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 093c99302ab66ce4cbeed2f0ee65629a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b3fe3df861b6432fb166cf69cdf5ba31_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b0b138abe29d8aa498535e829218d2be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_db6a307121404636b0ce44f3132f2fb8_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 093c99302ab66ce4cbeed2f0ee65629a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e59f386075544744958c2fb9f3a413d9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8127d72dd65a1454082d10767b2fcad4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DecalMeshBiasType: 0
+    - _DecalMeshDepthBias: 0
+    - _DecalMeshViewBias: 0
+    - _DrawOrder: 0
+    - _Float: 10
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

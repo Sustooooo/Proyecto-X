@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Galaxy_Deep_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 46f412960da53ec43a305d92d5c1d9e0,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 1aa16a8702f5c7d478652465c8f5198c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Galaxy_Cubemap:
+        m_Texture: {fileID: 8900000, guid: 7ffd5822e244f6e4e9f0c31d3378f72a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleReflectedCubemap_97bf8fc676fd474da552e4c9e49837b4_Cube_1_Cubemap:
+        m_Texture: {fileID: 8900000, guid: 7ffd5822e244f6e4e9f0c31d3378f72a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_23af9a2b44de4eb0a12a218c4b106230_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7711dfad2c0de874195b0ef0f2698d36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9bd696b81c3b41c9a279a24eb46ae53a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7711dfad2c0de874195b0ef0f2698d36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stars_Texture:
+        m_Texture: {fileID: 2800000, guid: 7711dfad2c0de874195b0ef0f2698d36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Divide: 1
+    - _Fresnel_Distance: 3.2
+    - _Fresnel_Power: 12.44
+    - _Frsnel_Distance: 7.61
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Stars_Power: 2.5
+    m_Colors:
+    - _Cubemap_Normals: {r: -0.015, g: -0.015, b: -0.005, a: 0}
+    - _Fresnel_Color: {r: 0.12318654, g: 0.035294116, b: 0.35686275, a: 0}
+    - _Fresnel_Speed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Fresnle_Speed: {r: -0.15, g: 0.1, b: 0, a: 0}
+    - _Galaxy_Color: {r: 0.86726284, g: 0.58915347, b: 1.3396226, a: 0}
+    - _Normal_Vector: {r: -0.1, g: -0.1, b: -0.2, a: 0}
+    - _Stars_Color: {r: 1367.1202, g: 1095.0748, b: 1076.9296, a: 0}
+    - _Vector3: {r: -0.05, g: -0.05, b: -0.05, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &8112754303699193125
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
