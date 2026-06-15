@@ -79,15 +79,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0
-    - _Boolean: 1
+    - _Alpha: 0.37
+    - _Boolean: 0
     - _DecalMeshBiasType: 0
     - _DecalMeshDepthBias: 0
     - _DecalMeshViewBias: 0
     - _DrawOrder: 0
     - _Float: 1
     - _Float_1: 1
-    - _FrostRing: 0
+    - _FrostRing: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
