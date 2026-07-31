@@ -70,7 +70,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_2d93212d95c240d999956297861be58e_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: c42c200ec14305743a579e0c98668099, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_2f248bc2de634113b141a37e1ba379d7_Texture_1_Texture2D:
@@ -82,7 +82,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Triplanar_7812ba5438b44daf90df94fbfb645fdb_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: b87f414199ed6e1459eae97ec9a3583a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Triplanar_9bb78eb160014296887b02bc257597c7_Texture_1_Texture2D:
@@ -156,4 +156,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10
